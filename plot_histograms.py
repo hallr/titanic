@@ -99,23 +99,4 @@ plt.ylabel('Number of Passengers')
 
 plt.savefig('hist_stacked.png')
 
-
-
-
-
-
 print "Done plotting histograms!"
-
-
-
-
-
-
-
-#Optionally, save one or more of our files as output
-#
-#with open(output_file_name, 'wb') as csv_writer_object:
-#    writer = csv.writer(csv_writer_object)
-#    #writer.writerow([header])
-#    writer.writerows(data_with_ages)
-#    print "Done saving modified data as %s" % output_file_name
